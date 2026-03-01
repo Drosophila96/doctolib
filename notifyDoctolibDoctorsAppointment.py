@@ -1,3 +1,10 @@
+import os
+
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
+BOOKING_URL = os.getenv("BOOKING_URL", "")
+AVAILABILITIES_URL = os.getenv("AVAILABILITIES_URL", "")
+
 from datetime import date, datetime, timedelta
 import json
 import urllib.parse
